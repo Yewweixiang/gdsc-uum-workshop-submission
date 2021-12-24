@@ -1,0 +1,30 @@
+/* Container for flexboxes */
+section {
+    display: -webkit-flex;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+  /* Style the navigation menu */
+.left_side {
+    flex: 1;
+    margin-left: 250px;
+    background: #043565;
+    padding: 10px;
+    height: 800px;
+}
+
+.right_side {
+    flex: 3;
+    margin-right: 350px;
+    background-color: #DCE1E9;
+    padding: 10px;
+    height: 800px;
+}
+
+table, th, td {
+    border:1px solid black;
+    padding: 5px;
+    margin-top: -10px;
+}
